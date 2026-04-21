@@ -257,6 +257,25 @@
 
         .cert-info p { font-size: .85rem; font-weight: 500; color: var(--text); }
         .cert-info span { font-size: .75rem; color: var(--muted); }
+             .cert-image a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 8px;
+            padding: 6px 14px;
+            background-color: var(--accent);
+            color: #fff;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: opacity 0.2s, transform 0.2s;
+           }
+           .cert-image a:hover{
+            opacity: 0.85;
+            transform: scale(1.04);
+            cursor: pointer;
+           }
 
         /* ─── RÉALISATIONS ─── */
         .realisation-grid {
